@@ -8,31 +8,31 @@
     Title="XBet">
 
     <TabBar>
-        
+
         <ShellContent
             Title="Home"
             Icon="menu_icon_home"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
-        
+
         <ShellContent
             Title="Analisis"
             Icon="menu_icon_analisis"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
-        
+
         <ShellContent
             Title="Config"
             Icon="menu_icon_settings"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
-        
+
         <ShellContent
             Title="Perfil"
             Icon="menu_icon_perfil"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" />
-        
+            ContentTemplate="{DataTemplate local:ProfilePage}"
+            Route="ProfilePage" />
+
     </TabBar>
-    
+
 </Shell>
