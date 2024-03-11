@@ -20,7 +20,7 @@
                     Grid.Row="1"
                     FontSize="23"
                     FontFamily="PoppinsSemi"
-                    Text="Elon M"
+                    Text="Elon Musk"
                     TextColor="#141A1E"
                     VerticalOptions="Center"/>
                 <Frame
