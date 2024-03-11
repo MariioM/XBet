@@ -22,7 +22,7 @@
             Route="MainPage" />
         
         <ShellContent
-            Title="Conf"
+            Title="Config"
             Icon="menu_icon_settings"
             ContentTemplate="{DataTemplate local:MainPage}"
             Route="MainPage" />
