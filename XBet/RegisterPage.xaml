@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XBet.RegisterPage"
+             Title="RegisterPage"
+             BackgroundColor="#f4f8fb" 
+             Shell.NavBarIsVisible="False">
+
+    <VerticalStackLayout Spacing="20" Padding="40"  VerticalOptions="Center">
+
+        <Grid RowDefinitions="*,*" Margin="10, 0, 0, 0">
+            <Label Text="Crear una cuenta"
+                   TextColor="#303030"
+                   FontSize="25"
+                   FontFamily="PoppinsBold"/>
+            <Label Text="Empieza tu viaje con nosotros"
+                   TextColor="#8E8E8E"
+                   Grid.Row="1"
+                   FontSize="15"
+                   FontFamily="PoppinsMedium"/>
+        </Grid>
+
+        <Grid RowDefinitions="*,*,*">
+            <Frame HorizontalOptions="FillAndExpand" BackgroundColor="#E1E7EC" BorderColor="Transparent" HeightRequest="50" Padding="10, 0">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="register_fullname_icon.svg" WidthRequest="24" HeightRequest="24" />
+                    <Entry Placeholder="Nombre de usuario" />
+                </StackLayout>
+            </Frame>
+        </Grid>
+
+    </VerticalStackLayout>
+    
+</ContentPage>

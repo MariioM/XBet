@@ -24,7 +24,7 @@
         <ShellContent
             Title="Config"
             Icon="menu_icon_settings"
-            ContentTemplate="{DataTemplate local:MainPage}"
+            ContentTemplate="{DataTemplate local:RegisterPage}"
             Route="MainPage" />
 
         <ShellContent
