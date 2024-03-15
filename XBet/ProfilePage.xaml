@@ -5,7 +5,7 @@
              Title="ProfilePage">
     <VerticalStackLayout>
         <Label 
-            Text="PROFILE PAGE"
+            Text="PROFILE PAGE d"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
